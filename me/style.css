@@ -1,0 +1,143 @@
+table{
+    width: 90%;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding: 10px;
+  text-align: center;
+}
+
+th{
+    padding: 10px;
+    
+}
+tr:nth-of-type(odd){
+    /* applies to the even tr of the table */
+    background-color: #EDB88B;
+}
+caption{
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+    margin-bottom: .5em;
+}
+input,textarea{
+    margin-bottom: .5em;
+}
+.header {
+    background-color: #DAD7CD;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+nav{
+    text-align: center;
+    background-color: #DAD7CD;
+    padding:1em;
+    width:auto;
+    height: 2em;
+  }
+  nav a{    /*this is for the a tags in the nav tag*/
+    display:block;
+    text-decoration: none;
+}
+  nav a:link{color:#FEF6C2;}
+  nav a:visited{color:#013220;}
+  nav a:hover{color:#CC9933;}
+  
+  nav ul{
+   list-style-type: none;
+   margin-right:1em;
+   padding: 0;
+  }
+  nav li{
+    display:inline-block;
+  }
+
+main {
+    margin-left: auto;
+    margin-right: 11.80em;
+    width:78.5%;
+    padding: 1em;
+    background-color: #344E41;
+    padding-bottom: auto; 
+    margin-bottom: auto;
+}
+
+#homediv {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 75% 25%;
+    column-gap: 5em;
+    row-gap: 5em;
+    height: 80%
+}
+
+#homediv .bio {
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+    background-color: #DAD7CD;
+    height: 90%;
+    width: 70%; 
+    margin-left: 2em;
+}
+
+#homediv #famhero {
+    background-image: url(img/family.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:100%;
+    width:150%;
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+    margin-bottom: 5em;
+    margin-left: -10em;
+}
+
+#homediv .future {
+    grid-column: 2/span 2;
+    grid-row: 2/span 1;
+    background-color: #DAD7CD;
+    /* margin-right: 2em; */
+    height:100%;
+    width:75%;
+    /* margin-bottom: 5em; */
+    padding: 2em; 
+    margin-top:-8em;
+    margin-left:-3em;
+}
+
+#homediv #futurehero {
+    background-image: url(img/PCS.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-row: 2/span 1;
+    grid-column: 1/span 1;
+    height:150px;
+    width:auto;
+    margin-top: -5em;
+   
+}
+
+footer {
+    width:79.3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-color: #DAD7CD;
+    padding:.5em;
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: #white;
+}
